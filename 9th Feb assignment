@@ -1,0 +1,71 @@
+<!-------------------------------------------------------------HTML------------------------------------------------------------------------------------------->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignment 9FEb</title>
+    <link rel="stylesheet" href="./style.css"/>
+
+</head>
+<body>
+    <h1>This is media query demo page</h1>
+
+
+</body>
+</html>
+
+
+
+
+
+<!---------------------------------------------------------CSS------------------------------------------------------------------------------------------------->
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+/background-color: aquamarine; 
+}
+
+    
+
+body {
+    background-color: tan;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 1440px) {
+    body {
+      background-color: green;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    body {
+      background-color: brown;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    body {
+      background-color: red;
+    }
+  }
+h1{
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
