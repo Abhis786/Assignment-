@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment feb 4</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <!--Logo side-->
+        <div class="logo">
+            <img src="./assets/white-logo.png" alt="Logo of company"  title="Guptaji"/>
+        </div>
+        <!--navigation-->
+        <div class="navigation">
+            <nav>
+                <ul >
+                    <li>Home </a></li>
+                    <li>About </a></li>
+                    <li>Services  </a></li>
+                    <li>Portfolio </a></li>
+                    <li> Pricing </a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--button-->
+        <div class="button">
+            <button>Contact us</button>
+        </div>
+    </div>
+    <!--Hero section-->
+    <div class="hero" >
+        <!--text-->
+        <div class="text" >
+        <h1 >WE HELP YOU<BR> <span>CRUSH </span> YOUR<BR> COMPETITION</h1>
+            <P>Bulid trust to connect your brand to billion of user and grow your revenue <br> through SEO</P>
+            </div>
+            <img src="./Assets/3000071.jpg" alt="Our Motive Image" title="We work like" height="100px" width="120px"/>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <button>See our Services</button>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!-------------------------------------------------------------------CSS------------------------------------------------------------------------------>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:# lightblue
+    color: black;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    gap:20px;
+    margin-top: 5px;
+    margin-left:5px;
+
+}
+.header .logo img{
+    height:35px;
+    width:80px;
+    margin-left:10px;
+    margin-top:10px;
+    background-color: black;
+}
+.header .navigation nav{
+    /* margin:20px; */
+    margin-left: 50px;
+}
+.header .navigation nav ul{
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+gap:40px;
+
+}
+.header .navigation nav ul li{
+    list-style-type:none;
+    font-size: 20px;
+}
+.header .button button{
+    margin-left: 770px;
+    background-color: blue;
+    color:white;
+    font-size:20px;
+    padding:5px;
+    font-weight:300px;
+    border-radius:5px;
+    margin: top 5px;
+    
+    
+}
+
+.hero{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: center;
+    gap:20px;
+    margin-top: 0px;
+    margin-left:5px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.hero.text {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-size:40px
+    font-style:bold;
+    
+    margin-left:100px;
+    gap: 50px;
+    padding:5px;
+
+    
+}
+ p{
+    color: black;
+    font-weight:300;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span
+{
+    font-size:30px;
+    color: purple;
+}
+.hero  img{
+    height:400px;
+    width:600px;
+    margin-left: 400px;
+    margin-top:50px;
+    display: flex;
+    flex-direction:row;
+  justify-content: right;
+
+}
+.footer button{
+    background-color: blue;
+    border-radius: 5px;
+    color:white;
+    font-size:25px;
+    font-weight:300;
+}
