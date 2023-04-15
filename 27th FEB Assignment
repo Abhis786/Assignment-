@@ -1,0 +1,134 @@
+
+<!-----------------------------HTML------------------------------------------------------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 27th FEB</title>
+    <!-- <link rel="stylesheet" href="./style.css"/> -->
+</head>
+<body>
+   <h1>Counter App</h1>
+    
+   
+   <div class="container">
+    <button id="my-button">-</button>
+    <p id="count">0</p>
+    <button id="my-button2">+</button>
+  </div>
+  <div id="line2">
+    <button>
+      Reset Button
+    </button>
+  </div>
+   <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+<!------------------------------------------------------------------------------CSS------------------------------------------------------------------------>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    color: black;
+}
+.container 
+{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+
+}
+.my-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 30px;
+    background-color: white;
+    border: 1px;
+    border-radius:5px;
+    border-color: blueviolet;
+    margin-right: 10px;
+}
+.my-button2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 30px;
+    background-color: white;
+    border: 1px;
+    border-radius:5px;
+    border-color: blueviolet;
+    margin-left: 10px;
+
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 30px;
+    background-color: white;
+    border: 1px;
+    border-radius:5px;
+    border-color: blueviolet;
+
+
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 40px;
+    font-weight: 400;
+    font-weight: bold;
+
+}
+
+
+<!-------------------------------------------------------------------------Javascript-------------------------------------------------------------------->
+
+
+
+var button = document.getElementById('my-button');
+var button2 = document.getElementById('my-button2');
+var display = document.getElementById('count');
+var line2 = document.getElementById('line2');
+var count = 0;
+button.addEventListener("mouseover", function() {
+  count--
+  display.innerHTML = count; 
+  alert("you just clicked me 👍");
+});
+button2.addEventListener('click', function() {
+  count++
+  display.innerHTML = count; 
+});
+line2.addEventListener('click', function(){
+  count=0
+  display.innerHTML=count;});
+  
+  <!--------------------------------------click---------------------------------------------------------------------->
+  document.getElementById("myBtn").addEventListener("click", displayDate);
+  
+  <!--------------------------------------------mouseover , mouseout------------------------------------------------------------------------------->
+  element.addEventListener("mouseover", myFunction);
+
+element.addEventListener("mouseout", myThirdFunction);
+
